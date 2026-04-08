@@ -4,6 +4,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
+import { ChatBubble } from "./components/ChatBubble";
 import { Footer } from "./components/Footer";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
 				<Projects />
 				<Experience />
 				<Contact />
+				<ChatBubble />
 			</main>
 
 			{/* <Footer /> */}

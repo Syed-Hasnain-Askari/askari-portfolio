@@ -1,29 +1,30 @@
 import { motion } from "motion/react";
 import { ExternalLink, Github } from "lucide-react";
 import Project01 from "../../assets/project01.png";
+import Project02 from "../../assets/project02.png";
 export function Projects() {
 	const projects = [
 		{
-			title: "Gym Management System",
+			title: "ProFit Multi-Tanent Gym Management System",
 			description:
-				"A dashboard build on React.js and Node.js application for managing gym memberships registration and fees overview,",
-			tech: ["React.js", "Tailwind CSS", "MongoDB"],
+				"A modern Multi-Tenant Gym Management SaaS web application built using Next.js, Node.js, MongoDB, and Tailwind CSS. Includes membership management, attendance tracking, payment handling, dashboards, trainer management, role-based authentication, and scalable SaaS architecture for multiple gyms.",
+			tech: ["React.js", "Node.js", "TypeScript", "TailwindCSS", "MongoDB"],
 			image: Project01,
 			gradient: "from-blue-500 to-cyan-500",
 			github: "https://github.com",
 			demo: "https://gym-management-system-liard-nu.vercel.app"
+		},
+		{
+			title: "",
+			description: `A full-stack SaaS-based gym management system designed for fitness businesses, gym franchises, and multi-branch fitness centers. This platform enables multiple gyms to operate independently within a single scalable application using secure multi-tenant architecture.
+						The system provides complete gym operation management including member registration, membership plans, attendance tracking, trainer management, payment handling, analytics dashboards, and role-based authentication. Each tenant has isolated data and a dedicated management environment, making the platform scalable and production-ready for real-world business use cases.
+						Built with modern web technologies, the application focuses on performance, scalability, responsive UI/UX, and secure backend architecture.`,
+			tech: ["React", "TailwindCSS", "TypeScript"],
+			image: Project02,
+			gradient: "from-purple-500 to-pink-500",
+			github: "https://github.com",
+			demo: "https://gym-management-system-liard-nu.vercel.app"
 		}
-		// {
-		// 	title: "E-Commerce Platform",
-		// 	description:
-		// 		"Full-stack e-commerce solution with real-time inventory, payment processing, and advanced analytics dashboard.",
-		// 	tech: ["React", "Node.js", "Stripe", "MongoDB"],
-		// 	image:
-		// 		"https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
-		// 	gradient: "from-purple-500 to-pink-500",
-		// 	github: "https://github.com",
-		// 	demo: "https://demo.com"
-		// },
 		// {
 		// 	title: "Smart Task Manager",
 		// 	description:
